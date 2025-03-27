@@ -5,7 +5,7 @@ module Placeholdit
     def placeholdit_image_tag(size, opts={})
 
       size = "#{size}" unless size.is_a?(String)
-      src = "https://placehold.it/#{size}"
+      src = "https://dummyimage.com/#{size}"
 
       config = {
         :alt => (opts[:text] || "A placeholder image"),
